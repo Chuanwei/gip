@@ -13,6 +13,7 @@ API：webscan, rapiddnsio, ip138, ipchaxun, aizhan, dnsgrep, viewdns, virustotal
 python3 gip.py -i 103.41.167.234
 
 #批量
+
 python3 gip.py -f target.txt
   
   
