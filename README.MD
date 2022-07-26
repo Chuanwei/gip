@@ -1,9 +1,9 @@
-# 功能：
+# 0x00功能：
 
 集合多个接口的IP反查域名工具。
 
-# 命令行运行
-
+# 0x01命令行运行
+```python
 python3 gip.py
 
 usage: gip.py [-h] [-i IP | -f FILE]
@@ -19,7 +19,8 @@ optional arguments:
   -h, --help            show this help message and exit
   -i IP, --ip IP        指定单个IP
   -f FILE, --file FILE  从文件批量IP
-# 使用方法
+```
+# 0x02使用方法
 
 python gip.py -i 103.41.167.234
 
