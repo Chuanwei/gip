@@ -22,9 +22,9 @@ optional arguments:
 ```
 # 0x02使用方法
 
-python gip.py -i 103.41.167.234
+python3 gip.py -i 103.41.167.234
 
-python gip.py -f target.txt
+python3 gip.py -f target.txt
   
   
   
