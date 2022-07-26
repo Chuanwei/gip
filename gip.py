@@ -291,7 +291,7 @@ if __name__ == '__main__':
     # print(ip138('103.41.167.234'))
     from argparse import RawTextHelpFormatter
     # 配置自己的virustotal key
-    default_vt_key = 'e403fd20fd37f96baaeb75947f2b4948b2674b916012b118d7d63aafb011b7b9'
+    default_vt_key = ''
     def cmd_run(result):
         with open("result.csv", 'w', newline='', encoding='gbk') as f:
             header = result[0].keys()
