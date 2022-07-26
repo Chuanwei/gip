@@ -157,6 +157,8 @@ def viewdns(ip):
 def virustotal(ip, vt_key=None):
     domain_list = []
     global default_vt_key
+    if not default_vt_key:
+        logger.warning("请配置Virustotal API KEY！！！")
     key = vt_key if vt_key else default_vt_key
     url = f'https://www.virustotal.com/api/v3/ip_addresses/{ip}/resolutions'
     headers = {
