@@ -14,7 +14,7 @@ API：webscan, rapiddnsio, ip138, ipchaxun, aizhan, dnsgrep, viewdns, virustotal
 
 pip3 install requirements.txt
 
-# 配置virustotal key
+#配置virustotal key
 ```
 vi gip.py
 default_vt_key = '你的API KEY'
