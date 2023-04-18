@@ -6,8 +6,9 @@
 
 API：webscan, rapiddnsio, ip138, ipchaxun, aizhan, dnsgrep, viewdns, virustotal
 
-注意：virustotal需配置key才能使用！
-
+注意：
+virustotal需配置自己的key
+dnslytics需要配置自己的cookie
 # 0x02使用方法
 
 #安装
