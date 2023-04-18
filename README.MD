@@ -29,3 +29,7 @@ python3 gip.py -i 103.41.167.234
 #批量
 
 python3 gip.py -f target.txt
+
+#接受建议
+
+如有建议的接口欢迎提交issue
